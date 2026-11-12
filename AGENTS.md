@@ -14,8 +14,15 @@ here assumes a particular assistant.
 ## How to work with the owner
 
 - Start with a short plan for the current phase and wait for an OK before building.
-- Build in small steps. Commit often with clear, conventional messages. Explain non-obvious
-  decisions.
+- This repo is also how the owner learns agent engineering. Do not just do the work:
+  - Before changing code, say what you are about to change and why.
+  - Work in small steps, one concept at a time. After each step, walk through what
+    changed: which files, what the new code does, and why it is written that way.
+  - Introduce new concepts (a Strands API, a pattern, a tool) with a short explanation
+    before using them.
+  - Where it helps the learning, offer the owner the chance to write a piece themselves.
+- Never commit without asking. Stop when a step is ready, show the changes and the proposed
+  commit message, and wait for the owner's OK. Keep commits small and conventional.
 - Before writing Strands code, read the current Strands docs. Do not rely on memory for APIs
   (Ollama model import path, agents-as-tools, Graph/Workflow, MCP client, structured output,
   interrupts, session managers).
