@@ -1,0 +1,26 @@
+# Environments and secrets
+.venv/
+.env
+.env.*
+!.env.example
+
+# Personal data
+data/
+*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
